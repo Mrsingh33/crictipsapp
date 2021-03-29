@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Haptik JS SDK Integration Demo</title>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0," name="viewport" />
+  </head>
+  <body>
+    <h1>Haptik JS SDK Demo</h1>
+    <script>
+      window.haptikInitSettings = {
+        "business-id": "1220",
+        "client-id": "5bcec38ff5aae463fb635fe98ae9fa6a33d87c96",
+        "base-url": "https://jio-api.hellohaptik.com",
+      };
+    </script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="https://toolassets.haptikapi.com/platform/javascript-xdk/production/loader.js"
+    ></script>
+  </body>
+    <script>
+  document.addEventListener('haptik_sdk', function() {
+    HaptikSDK.signup({
+      auth_id: '9082824257',
+      auth_code: '9082824257',
+    }, function(success,error) {
+      if (success) {
+        console.log('SIGNUP REQUEST SUCCEEDED!');
+      } else {
+        console.log('ERROR:',error);
+      }
+    });
+  });
+  </script>
+</html>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "428939993895",
+    "project_id": "cricket-tips-e1f75",
+    "storage_bucket": "cricket-tips-e1f75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428939993895:android:ccc1748c3bbd9b8b5dbf02",
+        "android_client_info": {
+          "package_name": "com.crickettips.crickettips_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428939993895-k1gn6v7m3jf6tsqr5cq9aino0t0gbl4u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEPoo-Agk-dK6HxHtltougW4PvL3neJTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428939993895-k1gn6v7m3jf6tsqr5cq9aino0t0gbl4u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
